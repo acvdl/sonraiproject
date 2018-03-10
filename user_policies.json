@@ -1,0 +1,1478 @@
+{
+  "data": {
+    "users": {
+      "items": [
+        {
+          "name": "Michael.Avery",
+          "policies": {
+            "items": [
+              {
+                "name": "AmazonEC2ReportsAccess"
+              },
+              {
+                "name": "AmazonRekognitionFullAccess"
+              },
+              {
+                "name": "AWSStepFunctionsFullAccess"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Beth.Boyd",
+          "policies": {
+            "items": [
+              {
+                "name": "AWSDirectConnectReadOnlyAccess"
+              },
+              {
+                "name": "AWSGlueServiceRole"
+              },
+              {
+                "name": "AWSDataPipeline_FullAccess"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Nickolas.Siefkes",
+          "policies": {
+            "items": [
+              {
+                "name": "SecurityAudit"
+              },
+              {
+                "name": "AmazonEC2ContainerServiceRole"
+              },
+              {
+                "name": "AmazonChimeFullAccess"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Royce.Holmes",
+          "policies": {
+            "items": [
+              {
+                "name": "AmazonEC2SpotFleetAutoscaleRole"
+              },
+              {
+                "name": "AmazonPollyReadOnlyAccess"
+              },
+              {
+                "name": "AmazonMQReadOnlyAccess"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Nelson.Lopez",
+          "policies": {
+            "items": [
+              {
+                "name": "AmazonChimeUserManagement"
+              },
+              {
+                "name": "AmazonMobileAnalyticsFinancialReportAccess"
+              },
+              {
+                "name": "AWSElasticBeanstalkWorkerTier"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Alice.Slade",
+          "policies": {
+            "items": [
+              {
+                "name": "AWSAgentlessDiscoveryService"
+              },
+              {
+                "name": "AWSCloudHSMFullAccess"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Joseph.Stucker",
+          "policies": {
+            "items": [
+              {
+                "name": "AmazonElasticFileSystemReadOnlyAccess"
+              },
+              {
+                "name": "AWSAccountActivityAccess"
+              },
+              {
+                "name": "AmazonWorkMailFullAccess"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Glynda.Szekely",
+          "policies": {
+            "items": [
+              {
+                "name": "AlexaForBusinessDeviceSetup"
+              },
+              {
+                "name": "CloudFrontReadOnlyAccess"
+              },
+              {
+                "name": "AWSMarketplaceFullAccess"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Ronald.Wolfman",
+          "policies": {
+            "items": [
+              {
+                "name": "AWSDirectoryServiceFullAccess"
+              },
+              {
+                "name": "AWSAccountUsageReportAccess"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Vincent.Muhammad",
+          "policies": {
+            "items": [
+              {
+                "name": "AWSIoTLogging"
+              },
+              {
+                "name": "AWSLambdaReadOnlyAccess"
+              },
+              {
+                "name": "AWSMarketplaceRead-only"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Bradley.Dupree",
+          "policies": {
+            "items": [
+              {
+                "name": "RDSCloudHsmAuthorizationRole"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Jonell.Nordman",
+          "policies": {
+            "items": [
+              {
+                "name": "AWSStorageGatewayReadOnlyAccess"
+              },
+              {
+                "name": "AWSDataPipeline_FullAccess"
+              },
+              {
+                "name": "AmazonDRSVPCManagement"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Richard.Bogle",
+          "policies": {
+            "items": [
+              {
+                "name": "SystemAdministrator"
+              },
+              {
+                "name": "AmazonCloudDirectoryFullAccess"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Pamala.Carter",
+          "policies": {
+            "items": [
+              {
+                "name": "AmazonChimeFullAccess"
+              },
+              {
+                "name": "AmazonSNSReadOnlyAccess"
+              },
+              {
+                "name": "AWSElasticBeanstalkService"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Jennifer.Pardini",
+          "policies": {
+            "items": [
+              {
+                "name": "IAMUserSSHKeys"
+              },
+              {
+                "name": "AmazonMachineLearningFullAccess"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Karena.Hess",
+          "policies": {
+            "items": [
+              {
+                "name": "QuickSightAccessForS3StorageManagementAnalyticsReadOnly"
+              },
+              {
+                "name": "AmazonElasticMapReduceforEC2Role"
+              },
+              {
+                "name": "AmazonAppStreamFullAccess"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Tracey.Wolley",
+          "policies": {
+            "items": [
+              {
+                "name": "ViewOnlyAccess"
+              },
+              {
+                "name": "AWSElementalMediaPackageFullAccess"
+              },
+              {
+                "name": "AmazonKinesisFirehoseFullAccess"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Barbara.Ferranti",
+          "policies": {
+            "items": [
+              {
+                "name": "AmazonDynamoDBFullAccesswithDataPipeline"
+              },
+              {
+                "name": "AmazonMobileAnalyticsWriteOnlyAccess"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Jason.Burger",
+          "policies": {
+            "items": [
+              {
+                "name": "AmazonCloudDirectoryReadOnlyAccess"
+              },
+              {
+                "name": "AWSElasticBeanstalkWorkerTier"
+              }
+            ]
+          }
+        },
+        {
+          "name": "David.Munoz",
+          "policies": {
+            "items": [
+              {
+                "name": "AmazonMachineLearningRealTimePredictionOnlyAccess"
+              },
+              {
+                "name": "AmazonRoute53AutoNamingFullAccess"
+              },
+              {
+                "name": "AWSLambdaBasicExecutionRole"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Frances.Reusswig",
+          "policies": {
+            "items": [
+              {
+                "name": "AmazonMechanicalTurkFullAccess"
+              },
+              {
+                "name": "AWSLambdaVPCAccessExecutionRole"
+              },
+              {
+                "name": "AmazonRoute53FullAccess"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Grace.Lester",
+          "policies": {
+            "items": [
+              {
+                "name": "AWSWAFReadOnlyAccess"
+              },
+              {
+                "name": "AmazonCognitoDeveloperAuthenticatedIdentities"
+              },
+              {
+                "name": "AmazonSageMakerReadOnly"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Kevin.Jackson",
+          "policies": {
+            "items": [
+              {
+                "name": "AWSApplicationDiscoveryServiceFullAccess"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Ann.Zeman",
+          "policies": {
+            "items": [
+              {
+                "name": "AWSApplicationDiscoveryServiceFullAccess"
+              },
+              {
+                "name": "IAMFullAccess"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Delores.Sanders",
+          "policies": {
+            "items": [
+              {
+                "name": "CloudWatchActionsEC2Access"
+              },
+              {
+                "name": "AmazonAppStreamFullAccess"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Rosalina.Wilson",
+          "policies": {
+            "items": [
+              {
+                "name": "AmazonSSMAutomationRole"
+              },
+              {
+                "name": "ComprehendReadOnly"
+              },
+              {
+                "name": "AmazonWorkSpacesApplicationManagerAdminAccess"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Robert.Francisco",
+          "policies": {
+            "items": [
+              {
+                "name": "AWSCloud9EnvironmentMember"
+              },
+              {
+                "name": "ReadOnlyAccess"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Roosevelt.Ehrhart",
+          "policies": {
+            "items": [
+              {
+                "name": "AutoScalingFullAccess"
+              },
+              {
+                "name": "AmazonMachineLearningCreateOnlyAccess"
+              },
+              {
+                "name": "AWSLambdaReadOnlyAccess"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Beatrice.Tutt",
+          "policies": {
+            "items": [
+              {
+                "name": "AWSElasticBeanstalkReadOnlyAccess"
+              },
+              {
+                "name": "AWSMigrationHubDMSAccess"
+              },
+              {
+                "name": "AmazonFreeRTOSFullAccess"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Margie.Dunn",
+          "policies": {
+            "items": [
+              {
+                "name": "CloudWatchLogsReadOnlyAccess"
+              },
+              {
+                "name": "AWSLambdaReadOnlyAccess"
+              },
+              {
+                "name": "AWSLambdaDynamoDBExecutionRole"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Nicole.Lugo",
+          "policies": {
+            "items": [
+              {
+                "name": "AWSAgentlessDiscoveryService"
+              },
+              {
+                "name": "AWSKeyManagementServicePowerUser"
+              },
+              {
+                "name": "AWSConfigRulesExecutionRole"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Hermina.Davis",
+          "policies": {
+            "items": [
+              {
+                "name": "ResourceGroupsandTagEditorReadOnlyAccess"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Palmer.Arthur",
+          "policies": {
+            "items": [
+              {
+                "name": "AWSBatchServiceRole"
+              },
+              {
+                "name": "AmazonSNSRole"
+              },
+              {
+                "name": "AWSMarketplaceGetEntitlements"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Rebecca.Henry",
+          "policies": {
+            "items": [
+              {
+                "name": "AmazonKinesisVideoStreamsReadOnlyAccess"
+              },
+              {
+                "name": "AmazonLexFullAccess"
+              }
+            ]
+          }
+        },
+        {
+          "name": "James.Deguzman",
+          "policies": {
+            "items": [
+              {
+                "name": "AlexaForBusinessFullAccess"
+              },
+              {
+                "name": "AWSCodeDeployFullAccess"
+              },
+              {
+                "name": "AmazonDynamoDBReadOnlyAccess"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Dennis.Santos",
+          "policies": {
+            "items": [
+              {
+                "name": "AWSApplicationDiscoveryServiceFullAccess"
+              },
+              {
+                "name": "AmazonSSMReadOnlyAccess"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Lori.Bradford",
+          "policies": {
+            "items": [
+              {
+                "name": "AmazonEC2ReadOnlyAccess"
+              },
+              {
+                "name": "CloudWatchReadOnlyAccess"
+              },
+              {
+                "name": "AmazonRoute53FullAccess"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Cathy.Colson",
+          "policies": {
+            "items": [
+              {
+                "name": "ServiceCatalogAdminFullAccess"
+              },
+              {
+                "name": "AmazonDMSVPCManagementRole"
+              },
+              {
+                "name": "AmazonInspectorReadOnlyAccess"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Scot.Schaeffer",
+          "policies": {
+            "items": [
+              {
+                "name": "AmazonPollyReadOnlyAccess"
+              },
+              {
+                "name": "AWSLambdaKinesisExecutionRole"
+              },
+              {
+                "name": "AmazonElasticFileSystemReadOnlyAccess"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Donna.Roylance",
+          "policies": {
+            "items": [
+              {
+                "name": "AmazonDMSVPCManagementRole"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Carolyn.Hobgood",
+          "policies": {
+            "items": [
+              {
+                "name": "AmazonDynamoDBFullAccess"
+              },
+              {
+                "name": "AmazonRekognitionServiceRole"
+              },
+              {
+                "name": "IAMUserSSHKeys"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Robert.Williams",
+          "policies": {
+            "items": [
+              {
+                "name": "AWSDeviceFarmFullAccess"
+              },
+              {
+                "name": "CloudWatchLogsReadOnlyAccess"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Shawna.Blake",
+          "policies": {
+            "items": [
+              {
+                "name": "AmazonAppStreamServiceAccess"
+              },
+              {
+                "name": "AmazonMacieFullAccess"
+              },
+              {
+                "name": "AmazonWorkSpacesApplicationManagerAdminAccess"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Marcella.Gaul",
+          "policies": {
+            "items": [
+              {
+                "name": "AWSOpsWorksRole"
+              },
+              {
+                "name": "AmazonEC2ContainerRegistryFullAccess"
+              },
+              {
+                "name": "ServerMigrationServiceRole"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Joanne.Nguyen",
+          "policies": {
+            "items": [
+              {
+                "name": "CloudWatchFullAccess"
+              },
+              {
+                "name": "AmazonElasticFileSystemFullAccess"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Larry.Bates",
+          "policies": {
+            "items": [
+              {
+                "name": "AWSCloudHSMFullAccess"
+              },
+              {
+                "name": "AWSGreengrassResourceAccessRolePolicy"
+              },
+              {
+                "name": "AmazonESReadOnlyAccess"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Dorothy.Diminich",
+          "policies": {
+            "items": [
+              {
+                "name": "AWSMigrationHubFullAccess"
+              },
+              {
+                "name": "NetworkAdministrator"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Marjorie.Pedraza",
+          "policies": {
+            "items": [
+              {
+                "name": "CloudWatchEventsBuiltInTargetExecutionAccess"
+              },
+              {
+                "name": "AWSOpsWorksCloudWatchLogs"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Patrick.Garrison",
+          "policies": {
+            "items": [
+              {
+                "name": "ViewOnlyAccess"
+              },
+              {
+                "name": "AmazonEC2ContainerServiceAutoscaleRole"
+              },
+              {
+                "name": "AutoScalingConsoleFullAccess"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Jessica.Arriaga",
+          "policies": {
+            "items": [
+              {
+                "name": "AmazonChimeFullAccess"
+              },
+              {
+                "name": "CloudWatchLogsFullAccess"
+              },
+              {
+                "name": "AmazonVPCCrossAccountNetworkInterfaceOperations"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Robert.Johnson",
+          "policies": {
+            "items": [
+              {
+                "name": "AmazonEC2FullAccess"
+              },
+              {
+                "name": "AmazonMechanicalTurkCrowdFullAccess"
+              },
+              {
+                "name": "AWSMigrationHubSMSAccess"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Emily.Kokoska",
+          "policies": {
+            "items": [
+              {
+                "name": "AWSConfigUserAccess"
+              },
+              {
+                "name": "AmazonChimeReadOnly"
+              },
+              {
+                "name": "AmazonLexRunBotsOnly"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Nick.Nadeau",
+          "policies": {
+            "items": [
+              {
+                "name": "AWSCloudHSMFullAccess"
+              },
+              {
+                "name": "AmazonSSMFullAccess"
+              },
+              {
+                "name": "AmazonZocaloFullAccess"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Benjamin.Anders",
+          "policies": {
+            "items": [
+              {
+                "name": "AWSOpsWorksFullAccess"
+              },
+              {
+                "name": "CloudFrontReadOnlyAccess"
+              },
+              {
+                "name": "AmazonEC2ContainerServiceRole"
+              }
+            ]
+          }
+        },
+        {
+          "name": "ron.burgandy",
+          "policies": {
+            "items": [
+              {
+                "name": "AdministratorAccess"
+              }
+            ]
+          }
+        },
+        {
+          "name": "James.Tacadina",
+          "policies": {
+            "items": [
+              {
+                "name": "CloudSearchFullAccess"
+              },
+              {
+                "name": "AmazonKinesisVideoStreamsFullAccess"
+              },
+              {
+                "name": "AmazonAPIGatewayAdministrator"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Alfred.Mapp",
+          "policies": {
+            "items": [
+              {
+                "name": "AmazonFreeRTOSFullAccess"
+              },
+              {
+                "name": "AWSElasticBeanstalkService"
+              },
+              {
+                "name": "AWSIoTOTAUpdate"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Micheal.Cavender",
+          "policies": {
+            "items": [
+              {
+                "name": "AWSIoTConfigAccess"
+              },
+              {
+                "name": "AWSElementalMediaPackageFullAccess"
+              },
+              {
+                "name": "ServiceCatalogEndUserFullAccess"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Stanley.Roberts",
+          "policies": {
+            "items": [
+              {
+                "name": "AWSQuicksightAthenaAccess"
+              },
+              {
+                "name": "AmazonRoute53FullAccess"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Armando.Ramirez",
+          "policies": {
+            "items": [
+              {
+                "name": "IAMFullAccess"
+              },
+              {
+                "name": "ServerMigrationConnector"
+              },
+              {
+                "name": "AmazonWorkMailFullAccess"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Rebecca.Richardson",
+          "policies": {
+            "items": [
+              {
+                "name": "AWSDataPipeline_FullAccess"
+              },
+              {
+                "name": "AmazonElasticMapReduceFullAccess"
+              },
+              {
+                "name": "AmazonMobileAnalyticsFinancialReportAccess"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Ed.Rhodes",
+          "policies": {
+            "items": [
+              {
+                "name": "AmazonMobileAnalyticsFinancialReportAccess"
+              },
+              {
+                "name": "AWSCodeCommitFullAccess"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Rebecca.Giles",
+          "policies": {
+            "items": [
+              {
+                "name": "AWSApplicationDiscoveryAgentAccess"
+              },
+              {
+                "name": "IAMUserChangePassword"
+              },
+              {
+                "name": "AmazonRoute53AutoNamingFullAccess"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Galen.Siefke",
+          "policies": {
+            "items": [
+              {
+                "name": "AmazonVPCCrossAccountNetworkInterfaceOperations"
+              },
+              {
+                "name": "AmazonRoute53AutoNamingFullAccess"
+              },
+              {
+                "name": "AWSLambdaBasicExecutionRole"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Ronald.Smith",
+          "policies": {
+            "items": [
+              {
+                "name": "AWSXrayWriteOnlyAccess"
+              },
+              {
+                "name": "AmazonMachineLearningReadOnlyAccess"
+              },
+              {
+                "name": "AWSMarketplaceGetEntitlements"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Robert.Breunig",
+          "policies": {
+            "items": [
+              {
+                "name": "AWSElasticBeanstalkReadOnlyAccess"
+              },
+              {
+                "name": "AWSApplicationDiscoveryAgentAccess"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Michel.Lasala",
+          "policies": {
+            "items": [
+              {
+                "name": "AWSApplicationDiscoveryAgentAccess"
+              },
+              {
+                "name": "AmazonAPIGatewayInvokeFullAccess"
+              },
+              {
+                "name": "AmazonSESFullAccess"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Rochelle.Monroe",
+          "policies": {
+            "items": [
+              {
+                "name": "AmazonInspectorFullAccess"
+              },
+              {
+                "name": "AWSCodePipelineReadOnlyAccess"
+              },
+              {
+                "name": "AWSLambdaENIManagementAccess"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Joe.Miller",
+          "policies": {
+            "items": [
+              {
+                "name": "AmazonEC2RoleforSSM"
+              },
+              {
+                "name": "AmazonRekognitionReadOnlyAccess"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Billy.Bob",
+          "policies": {
+            "items": []
+          }
+        },
+        {
+          "name": "Ricki.Broadbent",
+          "policies": {
+            "items": [
+              {
+                "name": "AmazonEC2ContainerServiceFullAccess"
+              },
+              {
+                "name": "ResourceGroupsandTagEditorFullAccess"
+              },
+              {
+                "name": "AmazonDRSVPCManagement"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Beverly.Downing",
+          "policies": {
+            "items": [
+              {
+                "name": "AWSCloud9EnvironmentMember"
+              },
+              {
+                "name": "AmazonRekognitionReadOnlyAccess"
+              },
+              {
+                "name": "AmazonAppStreamFullAccess"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Elizabeth.Carner",
+          "policies": {
+            "items": [
+              {
+                "name": "AWSApplicationDiscoveryAgentAccess"
+              },
+              {
+                "name": "AmazonSSMAutomationApproverAccess"
+              },
+              {
+                "name": "CloudWatchLogsReadOnlyAccess"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Georgette.Gilmore",
+          "policies": {
+            "items": [
+              {
+                "name": "AWSGlueServiceRole"
+              },
+              {
+                "name": "AWSCertificateManagerFullAccess"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Gilbert.Hara",
+          "policies": {
+            "items": [
+              {
+                "name": "ViewOnlyAccess"
+              },
+              {
+                "name": "AmazonElasticFileSystemReadOnlyAccess"
+              },
+              {
+                "name": "SystemAdministrator"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Brian.Koehler",
+          "policies": {
+            "items": [
+              {
+                "name": "AWSDirectoryServiceFullAccess"
+              },
+              {
+                "name": "AmazonSageMakerReadOnly"
+              },
+              {
+                "name": "AmazonLexFullAccess"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Janice.Faughnan",
+          "policies": {
+            "items": [
+              {
+                "name": "GreengrassOTAUpdateArtifactAccess"
+              },
+              {
+                "name": "AmazonElasticMapReduceFullAccess"
+              },
+              {
+                "name": "AWSCodeBuildAdminAccess"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Adeline.Perkins",
+          "policies": {
+            "items": [
+              {
+                "name": "AWSPriceListServiceFullAccess"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Mary.Johnson",
+          "policies": {
+            "items": [
+              {
+                "name": "AWSCodeCommitFullAccess"
+              },
+              {
+                "name": "AmazonRekognitionReadOnlyAccess"
+              },
+              {
+                "name": "AmazonKinesisReadOnlyAccess"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Gregory.Epps",
+          "policies": {
+            "items": [
+              {
+                "name": "AWSElasticBeanstalkReadOnlyAccess"
+              },
+              {
+                "name": "AmazonMachineLearningReadOnlyAccess"
+              },
+              {
+                "name": "AmazonKinesisFirehoseReadOnlyAccess"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Jerome.Nguyen",
+          "policies": {
+            "items": [
+              {
+                "name": "AmazonEC2ContainerRegistryReadOnly"
+              },
+              {
+                "name": "AmazonSESReadOnlyAccess"
+              },
+              {
+                "name": "AWSCloud9Administrator"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Opal.Smythe",
+          "policies": {
+            "items": [
+              {
+                "name": "DatabaseAdministrator"
+              },
+              {
+                "name": "AWSAccountActivityAccess"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Linda.Reeder",
+          "policies": {
+            "items": [
+              {
+                "name": "AmazonDMSRedshiftS3Role"
+              },
+              {
+                "name": "AmazonRoute53DomainsFullAccess"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Pat.Brown",
+          "policies": {
+            "items": [
+              {
+                "name": "AWSCodeCommitReadOnly"
+              },
+              {
+                "name": "AWSMarketplaceRead-only"
+              },
+              {
+                "name": "AmazonAppStreamReadOnlyAccess"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Brian.Weaver",
+          "policies": {
+            "items": [
+              {
+                "name": "AmazonKinesisReadOnlyAccess"
+              },
+              {
+                "name": "AmazonKinesisFullAccess"
+              },
+              {
+                "name": "AWSQuickSightIoTAnalyticsAccess"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Bob.Jacobs",
+          "policies": {
+            "items": [
+              {
+                "name": "AmazonSSMMaintenanceWindowRole"
+              },
+              {
+                "name": "AmazonLexFullAccess"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Naida.Wilson",
+          "policies": {
+            "items": [
+              {
+                "name": "AmazonVPCFullAccess"
+              },
+              {
+                "name": "AWSDeepLensServiceRolePolicy"
+              },
+              {
+                "name": "AWSCertificateManagerFullAccess"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Ann.Rushing",
+          "policies": {
+            "items": [
+              {
+                "name": "AmazonRedshiftReadOnlyAccess"
+              },
+              {
+                "name": "AmazonLexFullAccess"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Israel.Delia",
+          "policies": {
+            "items": [
+              {
+                "name": "AWSCodeBuildDeveloperAccess"
+              },
+              {
+                "name": "AmazonMachineLearningManageRealTimeEndpointOnlyAccess"
+              },
+              {
+                "name": "AWSMarketplaceRead-only"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Randy.Moore",
+          "policies": {
+            "items": [
+              {
+                "name": "AWSMarketplaceFullAccess"
+              },
+              {
+                "name": "AWSCodePipelineApproverAccess"
+              },
+              {
+                "name": "AWSMarketplaceMeteringFullAccess"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Mario.Lesley",
+          "policies": {
+            "items": [
+              {
+                "name": "AmazonEC2ContainerRegistryPowerUser"
+              },
+              {
+                "name": "AWSCloudTrailReadOnlyAccess"
+              },
+              {
+                "name": "AmazonCloudDirectoryFullAccess"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Rachel.Williams",
+          "policies": {
+            "items": [
+              {
+                "name": "AWSDirectoryServiceFullAccess"
+              },
+              {
+                "name": "ResourceGroupsandTagEditorReadOnlyAccess"
+              },
+              {
+                "name": "AWSCloudHSMFullAccess"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Kathleen.Revilla",
+          "policies": {
+            "items": [
+              {
+                "name": "AmazonAPIGatewayPushToCloudWatchLogs"
+              },
+              {
+                "name": "TranslateReadOnly"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Warren.Martinez",
+          "policies": {
+            "items": [
+              {
+                "name": "VMImportExportRoleForAWSConnector"
+              },
+              {
+                "name": "IAMReadOnlyAccess"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Tracy.Gibbons",
+          "policies": {
+            "items": [
+              {
+                "name": "ServiceCatalogAdminReadOnlyAccess"
+              },
+              {
+                "name": "AmazonEC2ContainerServiceFullAccess"
+              },
+              {
+                "name": "AWSQuickSightDescribeRedshift"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Patricia.Brown",
+          "policies": {
+            "items": [
+              {
+                "name": "AWSXrayWriteOnlyAccess"
+              },
+              {
+                "name": "AWSCodeDeployRoleForLambda"
+              },
+              {
+                "name": "AWSCertificateManagerFullAccess"
+              }
+            ]
+          }
+        },
+        {
+          "name": "jimmy.john",
+          "policies": {
+            "items": [
+              {
+                "name": "AdministratorAccess"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Michael.Drumm",
+          "policies": {
+            "items": [
+              {
+                "name": "SimpleWorkflowFullAccess"
+              },
+              {
+                "name": "AWSDirectoryServiceFullAccess"
+              },
+              {
+                "name": "SecurityAudit"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Keith.Boyd",
+          "policies": {
+            "items": [
+              {
+                "name": "AWSDirectConnectReadOnlyAccess"
+              },
+              {
+                "name": "AlexaForBusinessReadOnlyAccess"
+              },
+              {
+                "name": "AWSCloudHSMReadOnlyAccess"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Eugene.Harrison",
+          "policies": {
+            "items": [
+              {
+                "name": "AWSAgentlessDiscoveryService"
+              },
+              {
+                "name": "AWSMobileHub_FullAccess"
+              },
+              {
+                "name": "CloudSearchFullAccess"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
