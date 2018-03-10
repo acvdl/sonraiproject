@@ -8,6 +8,7 @@ FROM ubuntu
 CMD grep "FullAccess" test/user_policies.json | sort -u | wc -l
 
 # So far this finds the number of unique policies with a name that contains the text "FullAccess".
+# I assumed that no user's name would contain "FullAccess". If I was dealing with a different String of characters I would have to be more careful.
 
 # STILL TO DO:
 #   - get the file to be input from AWS not command line when I run this Dockerfile
