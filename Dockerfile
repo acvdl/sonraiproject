@@ -24,6 +24,5 @@ CMD grep "FullAccess" test/user_policies.json | sort -u | wc -l | awk '{print "{
 
 # STILL TO DO (AND MORE):
 #   - get the file to be input from AWS not command line when I run this Dockerfile
-#   - store the number of unique policies in a variable
-#   - create a new JSON file that holds the data: { count: "X" }
+#   - store the unique policies count in a new JSON file that holds the data: { count: "X" }
 #   - upload that new JSON file to the S3 bucket
