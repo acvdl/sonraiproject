@@ -13,13 +13,16 @@ FROM ubuntu
 # COUNT THE NUMBER OF UNIQUE POLICIES IN THE FILE
 # The following command finds the number of unique policies with a name that contains the text "FullAccess".
 # I assumed that no user's name would contain "FullAccess". If I was dealing with a different String of characters I would have to be more careful.
-CMD grep "FullAccess" test/user_policies.json | sort -u | wc -l
+# In this commit updated so that the value is returned in the proper format (i.e. {count: 'X'})
+CMD grep "FullAccess" test/user_policies.json | sort -u | wc -l | awk '{print "{count: "$1"}"}'
 
 # STORE THIS NUMBER IN A NEW JSON FILE
+# This new file will be called result_file.json
 
 # UPLOAD NEW JSON FILE TO S3 BUCKET
+# CMD aws s3 cp ./result_file.json s3://sonraiprojectbucket/
 
-# STILL TO DO:
+# STILL TO DO (AND MORE):
 #   - get the file to be input from AWS not command line when I run this Dockerfile
 #   - store the number of unique policies in a variable
 #   - create a new JSON file that holds the data: { count: "X" }
