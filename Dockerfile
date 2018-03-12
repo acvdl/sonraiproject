@@ -20,8 +20,8 @@ RUN brew install awscli
 # • Stores the data "{count: 'X'}" in a new JSON file called result_file.json.
 # • Uploads this new file to the S3 bucket sonraiprojectbucket
 
-CMD aws configure set aws_access_key_id AKIAJIR2RYJ3XW7RH7NA; \
-    aws configure set aws_secret_access_key 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; \
+CMD aws configure set aws_access_key_id AKIAJSZN3IN57RRHZINA; \
+    aws configure set aws_secret_access_key 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; \
     aws configure; \
     aws s3 cp s3://sonraiprojectbucket/user_policies.json .; \
     grep "FullAccess" user_policies.json | sort -u | wc -l | awk '{print "{count: "$1"}"}' > result_file.json; \
