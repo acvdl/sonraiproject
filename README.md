@@ -1,6 +1,6 @@
 # Sonrai Project
 
-For this project, I created an S3 bucket in AWS called sonraiprojectbucket and uploaded the given JSON file called user_policies.json to the bucket. I then created a docker image that is able to download user_policies.json, count the number of unique policies with a name that contains "FullAccess", stores this count in a new JSON file called result_file.json, and uploads this new JSON file back to the S3 bucket.
+For this project, I created an S3 bucket in AWS called sonraiprojectbucket and uploaded the given JSON file called user_policies.json to the bucket. I then created a docker image that is able to download user_policies.json from the S3 bucket, count the number of unique policies with a name that contains "FullAccess", store this count in a new JSON file called result_file.json, and upload this new JSON file to the S3 bucket.
 
 ## Using the Dockerfile
 
