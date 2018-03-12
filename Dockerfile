@@ -2,7 +2,7 @@
 # Sonrai Security Project
 # 12 March 2018
 
-# Use the linusbrew/linuxbrew library in order to be able to download the awscli
+# Use the linuxbrew/linuxbrew library in order to be able to download the awscli
 
 FROM linuxbrew/linuxbrew
 RUN brew install awscli
