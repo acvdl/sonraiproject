@@ -1,28 +1,28 @@
 # Anneke van der Laan
 # Sonrai Security Project
+# 12 March 2018
 
-# I'm not sure how to decide which Image to use
-FROM ubuntu
+# Use the linusbrew/linuxbrew library in order to be able to download the awscli
 
-# COPY THE FILE
-# This works in the command line. Figuring out how to make it work in this image.
-# Right now aws is not recognized in this image. I am thinking that I might have to
-# change ubuntu to another image from Docker Hub that includes aws.
-# CMD aws s3 cp s3://sonraiprojectbucket/user_policies.json .
+FROM linuxbrew/linuxbrew
+RUN brew install awscli
 
-# COUNT THE NUMBER OF UNIQUE POLICIES IN THE FILE
-# The following command finds the number of unique policies with a name that contains the text "FullAccess".
-# I assumed that no user's name would contain "FullAccess". If I was dealing with a different String of characters I would have to be more careful.
-# In this commit updated so that the value is returned in the proper format (i.e. {count: 'X'})
-CMD grep "FullAccess" test/user_policies.json | sort -u | wc -l | awk '{print "{count: "$1"}"}'
 
-# STORE THIS NUMBER IN A NEW JSON FILE
-# This new file will be called result_file.json
+# CMD does the following:
+# • Sets credentials so that call to configure works properly (I understand that you are not
+#   supposed to hard code these access keys, but I'm not sure how else to provide them (yet)).
+# • Configures AWS CLI options.
+# • Downloads (copies) the user_policies.json file from the S3 bucket sonraiprojectbucket.
+# • Counts the number of unique policies with a name that contains the text "FullAccess".
+#   I held the assumption that no user's name would contain "FullAccess". If I was dealing with a
+#   different String of characters I would have to be more careful to detect that the line
+#   containing "FullAccess" was indicating the name of the policy.
+# • Stores the data "{count: 'X'}" in a new JSON file called result_file.json.
+# • Uploads this new file to the S3 bucket sonraiprojectbucket
 
-# UPLOAD NEW JSON FILE TO S3 BUCKET
-# CMD aws s3 cp ./result_file.json s3://sonraiprojectbucket/
-
-# STILL TO DO (AND MORE):
-#   - get the file to be input from AWS not command line when I run this Dockerfile
-#   - store the unique policies count in a new JSON file that holds the data: {count: "X"}
-#   - upload that new JSON file to the S3 bucket
+CMD aws configure set aws_access_key_id AKIAIGD2OGJY3FZUKTMQ; \
+    aws configure set aws_secret_access_key 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; \
+    aws configure; \
+    aws s3 cp s3://sonraiprojectbucket/user_policies.json .; \
+    grep "FullAccess" user_policies.json | sort -u | wc -l | awk '{print "{count: "$1"}"}' > result_file.json; \
+    aws s3 cp ./result_file.json s3://sonraiprojectbucket/
